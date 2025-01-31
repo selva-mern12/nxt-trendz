@@ -1,0 +1,20 @@
+.cart-summary {
+  align-self: flex-end;
+}
+.amount {
+  color: #171f46;
+  font-size: 35px;
+  font-family: Roboto;
+}
+.summary-quantity {
+  font-size: 12px;
+  font-family: Roboto;
+  color: #616e7c;
+}
+.checkout-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
