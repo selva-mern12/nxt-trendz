@@ -18,3 +18,88 @@
   padding: 10px;
   border-radius: 8px;
 }
+.popup-bg-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #00000020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup-container {
+  background-color: #616e7c;
+  color: #ffffff;
+  overflow: auto;
+  height: 70vh;
+  padding: 25px;
+  border-radius: 15px;
+}
+::-webkit-scrollbar {
+  display: flex;
+}
+
+.payment-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: auto;
+}
+.input {
+  cursor: not-allowed;
+  margin-right: 15px;
+}
+
+.label {
+  cursor: not-allowed;
+  font-family: Roboto;
+  font-size: 15px;
+  color: #ffffff;
+}
+.list {
+  display: flex;
+  align-items: center;
+  cursor: not-allowed;
+  margin: 10px;
+  font-size: 15px;
+}
+.active {
+  cursor: pointer;
+}
+/* Button Styling */
+.button {
+  padding: 8px 16px; /* Smaller padding for a compact button */
+  font-size: 14px; /* Smaller font size */
+  font-weight: 600; /* Slightly bold */
+  background-color: #007bff; /* Simple blue color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 8px; /* Small rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease;
+  margin: 0px 10px;
+}
+
+/* Button Hover Effect */
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Button Focus Effect */
+.button:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.7); /* Light blue outline on focus */
+}
+
+/* Button Active State (when clicked) */
+.button:active {
+  background-color: #004085; /* Even darker blue when clicked */
+}
+.success-message {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  background-color: #d4edda;
+  border-radius: 5px;
+}
