@@ -15,20 +15,6 @@ import './App.css'
 class App extends Component {
   state = {
     cartList: [
-      {
-        id: 48,
-        title: 'Monsters Charm Toy',
-        brand: 'Trendytap',
-        description:
-          "Monsters Charm Toy is a random pack of 5 Mini Generic silicon rubber charm Figures with a pocket-size of 3 cm wide. It has threads to hang as a charm pendant. Perfect for decorating your succulent plants, flower pot, mini garden, etc. Also great as a decoration in your children's room.",
-        price: 8600,
-        quantity: 1,
-        availability: 'In Stock',
-        rating: 4.2,
-        totalReviews: 1243,
-        imageUrl:
-          'https://assets.ccbp.in/frontend/react-js/ecommerce/toys-minnos.png',
-      },
     ],
   }
 
